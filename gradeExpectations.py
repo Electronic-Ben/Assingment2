@@ -11,7 +11,7 @@ def get_int(msg, fail = "Invalid."):
         ans = int(input(msg))
     except Exception as e:
         print(fail)
-        return get_flaot(msg, fail)
+        return get_int(msg, fail)
     return ans
 
 def get_grade():

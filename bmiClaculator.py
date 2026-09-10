@@ -1,8 +1,3 @@
-import os
-
-def clear():
-    os.system("cls")
-
 def get_float(msg, fail = "Invalid."):
     try:
         ans = float(input(msg))

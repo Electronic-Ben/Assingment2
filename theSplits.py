@@ -16,5 +16,6 @@ def get_5_digit_num():
         return get_5_digit_num()
     return x
 
+
 num = str(get_5_digit_num())
 print("   ".join(list(num)))

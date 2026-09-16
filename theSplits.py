@@ -7,7 +7,7 @@ def get_int(msg, fail = "Invalid."):
     return ans
 
 def is_5_digits(x):
-    return len(str(x))
+    return len(str(x)) == 5
 
 def get_5_digit_num():
     x = get_int("Enter a 5 digit number: ")

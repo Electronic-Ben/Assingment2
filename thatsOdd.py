@@ -15,8 +15,10 @@ def check_multiple():
     x = get_int("\nEnter a number: ")
     y = get_int("Enter another number: ")
 
+    indicator = " is " if x % y == 0 else " is not "
+
     print()
-    print(str(x) + (" is " if x % y == 0 else " is not ") + "a multiple of " + str(y))
+    print(str(x) + indicator + "a multiple of " + str(y))
 
 check_parity()
 check_multiple()
